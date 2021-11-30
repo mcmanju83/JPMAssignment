@@ -16,9 +16,10 @@
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tvtitle"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/_40sdp"
-            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
             android:text="@string/app_name"
+            android:maxLines="2"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textSize="@dimen/_15ssp"
             app:layout_constraintBaseline_toTopOf="parent"
@@ -27,7 +28,7 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="1px"
+            android:layout_height="@dimen/_2sdp"
             android:layout_marginLeft="@dimen/_5sdp"
             android:layout_marginRight="@dimen/_5sdp"
             app:layout_constraintTop_toBottomOf="@+id/tvtitle"
